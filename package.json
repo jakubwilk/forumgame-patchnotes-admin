@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev-client": "cross-env PORT=3000 lerna run dev --scope=client",
+    "dev-server": "cross-env PORT=3001 lerna run dev --scope=server",
+    "prettier-client": "prettier --write \"./client/**/*.{js,jsx,ts,tsx,scss,json}\"",
+    "prettier-server": "prettier --write \"./server/**/*.{js,jsx,ts,tsx,scss,json}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "lerna": "^8.0.2",
+    "prettier": "^3.1.1"
+  }
+}
