@@ -8,8 +8,10 @@
   "scripts": {
     "dev-client": "cross-env PORT=3000 lerna run dev --scope forumpage-patchnotes-admin-client",
     "dev-server": "cross-env PORT=3001 lerna run dev --scope forumpage-patchnotes-admin-server",
-    "prettier-client": "prettier --write \"./client/**/*.{js,jsx,ts,tsx,scss,json}\"",
-    "prettier-server": "prettier --write \"./server/**/*.{js,jsx,ts,tsx,scss,json}\""
+    "prettier-client": "prettier --write \"./client/**/*.{js,jsx,ts,tsx,css,less,scss,json}\"",
+    "prettier-server": "prettier --write \"./server/**/*.{js,ts,json}\"",
+    "lint-server": "eslint . --ext ts --report-unused-disable-directives --max-warnings 0",
+    "lint-client": "eslint . --ext tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {},
   "devDependencies": {

@@ -4,3 +4,6 @@
 @layer tailwind {
   @tailwind base;
 }
+
+body {
+}
