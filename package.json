@@ -6,7 +6,7 @@
     "server"
   ],
   "scripts": {
-    "dev-client": "cross-env PORT=3000 lerna run dev --scope forumpage-patchnotes-admin-client",
+    "dev-client": "cross-env PORT=3000 lerna run start --scope forumpage-patchnotes-admin-client",
     "dev-server": "cross-env PORT=3001 lerna run dev --scope forumpage-patchnotes-admin-server",
     "prettier-client": "prettier --write \"./client/**/*.{js,jsx,ts,tsx,css,less,scss,json}\"",
     "prettier-server": "prettier --write \"./server/**/*.{js,ts,json}\"",
