@@ -1,1 +1,18 @@
+@tailwind components;
+@tailwind utilities;
 
+@layer tailwind {
+  @tailwind base;
+}
+
+body {
+  background-color: var(--mantine-color-dark-7);
+}
+
+a,
+input,
+button,
+textarea,
+select {
+  transition: all 0.1s ease-in-out;
+}
