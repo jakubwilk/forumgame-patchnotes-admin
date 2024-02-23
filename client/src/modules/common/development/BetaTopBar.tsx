@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import classes from './Development.module.css'
 
-export function BetaTopbar() {
+export function BetaTopBar() {
   const clientVersion = useMemo(() => '0.1.0', [])
 
   return (

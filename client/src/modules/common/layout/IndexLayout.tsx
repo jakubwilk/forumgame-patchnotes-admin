@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom'
 
-import { BetaTopbar } from '../development'
+import { BetaTopBar } from '../development'
 
 export function IndexLayout() {
   return (
     <>
-      <BetaTopbar />
+      <BetaTopBar />
       <Outlet />
     </>
   )
