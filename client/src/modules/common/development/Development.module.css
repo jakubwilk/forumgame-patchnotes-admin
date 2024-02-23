@@ -1,8 +1,8 @@
 .developmentBar {
-  background-color: var(--mantine-color-dark-9);
+  background-color: var(--mantine-color-white);
 }
 
 .developmentBarText {
   font-size: 0.9rem;
-  color: var(--mantine-color-gray-6);
+  color: var(--mantine-color-gray-8);
 }

@@ -8,7 +8,7 @@ export function BetaTopBar() {
   const clientVersion = useMemo(() => '0.1.0', [])
 
   return (
-    <div className={clsx('py-2', classes.developmentBar)}>
+    <div className={clsx('py-2 px-4', classes.developmentBar)}>
       <div className={'container mx-auto'}>
         <div className={'text-center'}>
           <Text className={classes.developmentBarText}>

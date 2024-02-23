@@ -1,0 +1,12 @@
+.topBar {
+    background-color: var(--mantine-color-dark-8);
+    border-bottom: 1px solid var(--mantine-color-dark-6);
+}
+
+.logoTitle {
+    color: var(--mantine-color-gray-4);
+}
+
+.logoText {
+    color: var(--mantine-primary-color-5);
+}
