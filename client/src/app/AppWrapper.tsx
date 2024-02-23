@@ -1,12 +1,9 @@
-import { MantineProvider, MantineTheme } from '@mantine/core'
+import { MantineProvider } from '@mantine/core'
 
 import { App } from './App'
+import { THEME } from './config'
 
 import '@mantine/core/styles.layer.css'
-
-const THEME: Partial<MantineTheme> = {
-  primaryColor: 'orange',
-}
 
 export function AppWrapper() {
   return (
