@@ -5,6 +5,19 @@
   @tailwind base;
 }
 
+:root {
+  --pn-font-weight-300: 300;
+  --pn-font-weight-400: 400;
+  --pn-font-weight-600: 600;
+  --pn-font-weight-700: 700;
+
+  --pn-font-style-regular: 'normal';
+  --pn-font-style-italic: 'italic';
+
+  --pn-font-rubik: 'Rubik', sans-serif;
+  --pn-font-lato: 'Lato', sans-serif;
+}
+
 body {
   background-color: var(--mantine-color-dark-7);
 }

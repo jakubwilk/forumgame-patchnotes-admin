@@ -4,9 +4,16 @@
 }
 
 .logoTitle {
-    color: var(--mantine-color-gray-4);
+    color: var(--mantine-color-gray-3);
+    line-height: inherit;
+    text-transform: lowercase;
+    font-size: 1.1rem;
+    user-select: none;
 }
 
 .logoText {
     color: var(--mantine-primary-color-5);
+    font-weight: var(--pn-font-weight-600);
+    text-transform: uppercase;
+    font-size: 1.25rem;
 }
