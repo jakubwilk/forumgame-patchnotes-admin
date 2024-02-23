@@ -1,10 +1,7 @@
-import { Outlet } from 'react-router-dom'
+import { RouterProvider } from 'react-router-dom'
+
+import { ROUTER } from './config'
 
 export function App() {
-  return (
-    <>
-      <p>{'test'}</p>
-      <Outlet />
-    </>
-  )
+  return <RouterProvider router={ROUTER} />
 }
