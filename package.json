@@ -5,13 +5,7 @@
     "client",
     "api"
   ],
-  "scripts": {
-    "start:client": "cross-env PORT=3000 lerna run start --scope forumpage-patchnotes-core-client",
-    "start:api": "cross-env PORT=3001 lerna run dev --scope forumpage-patchnotes-core-api",
-    "prettier": "prettier --write \"./*/**/*.{js,jsx,ts,tsx,css,less,scss,json}\"",
-    "lint:api": "eslint . --ext ts --report-unused-disable-directives --max-warnings 0",
-    "lint:client": "eslint . --ext tsx --report-unused-disable-directives --max-warnings 0"
-  },
+  "scripts": {},
   "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.2",
@@ -23,7 +17,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-simple-import-sort": "^12.0.0",
-    "lerna": "^8.1.2",
     "prettier": "^3.2.5"
   }
 }
