@@ -5,8 +5,9 @@ import {
   IconMenu2,
   IconQuestionMark,
   IconSettings,
-  IconUser,
 } from '@tabler/icons-react'
+
+import { GuestMenu } from '../../user/components'
 
 import '@mantine/core/styles/Button.css'
 import '@mantine/core/styles/Menu.css'
@@ -15,11 +16,18 @@ import '@mantine/core/styles/ActionIcon.css'
 export function Menu() {
   return (
     <nav className={'flex items-center gap-6'}>
-      <Link to={'/'}>{'Demo'}</Link>
+      <Link to={'/'} title={'Zerknij na wersję demo projektu'}>
+        {'🔥 Demo'}
+      </Link>
       <MantineMenu>
         <MantineMenu.Target>
           <Tooltip label={'Otwórz nawigacje'} position={'left'} color={'gray'}>
-            <ActionIcon variant={'subtle'} size={'lg'} aria-label={'Nawigacja'}>
+            <ActionIcon
+              variant={'subtle'}
+              size={'lg'}
+              aria-label={'Nawigacja'}
+              title={'Otwórz nawigacje'}
+            >
               <IconMenu2 style={{ width: '75%', height: '75%' }} stroke={1.5} />
             </ActionIcon>
           </Tooltip>
@@ -47,13 +55,7 @@ export function Menu() {
             {'FAQ'}
           </MantineMenu.Item>
           <MantineMenu.Divider />
-          <MantineMenu.Item
-            component={Link}
-            to={'/'}
-            leftSection={<IconUser style={{ width: rem(14), height: rem(14) }} />}
-          >
-            {'Zaloguj się'}
-          </MantineMenu.Item>
+          <GuestMenu />
         </MantineMenu.Dropdown>
       </MantineMenu>
     </nav>

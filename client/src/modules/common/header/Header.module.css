@@ -1,19 +1,19 @@
 .topBar {
-    background-color: var(--mantine-color-dark-8);
-    border-bottom: 1px solid var(--mantine-color-dark-6);
+  background-color: var(--mantine-color-dark-8);
+  border-bottom: 1px solid var(--mantine-color-dark-6);
 }
 
 .logoTitle {
-    color: var(--mantine-color-gray-3);
-    line-height: inherit;
-    text-transform: lowercase;
-    font-size: 1.1rem;
-    user-select: none;
+  color: var(--mantine-color-gray-3);
+  line-height: inherit;
+  text-transform: lowercase;
+  font-size: 1.1rem;
+  user-select: none;
 }
 
 .logoText {
-    color: var(--mantine-primary-color-5);
-    font-weight: var(--pn-font-weight-600);
-    text-transform: uppercase;
-    font-size: 1.25rem;
+  color: var(--mantine-primary-color-5);
+  font-weight: var(--pn-font-weight-600);
+  text-transform: uppercase;
+  font-size: 1.25rem;
 }
