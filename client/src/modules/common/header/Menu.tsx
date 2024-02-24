@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ActionIcon, Menu as MantineMenu, rem, Tooltip } from '@mantine/core'
+import { ActionIcon, Badge, Menu as MantineMenu, rem, Tooltip } from '@mantine/core'
 import {
   IconDownload,
   IconMenu2,
@@ -46,6 +46,9 @@ export function Menu() {
             leftSection={<IconSettings style={{ width: rem(14), height: rem(14) }} />}
           >
             {'Konfigurator'}
+            <Badge color={'orange'} size={'xs'} radius={'sm'} className={'ml-2'}>
+              {'Dla wersji Off-Cloud'}
+            </Badge>
           </MantineMenu.Item>
           <MantineMenu.Item
             component={Link}
