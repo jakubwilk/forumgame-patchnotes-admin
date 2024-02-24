@@ -2,10 +2,13 @@ import { useMemo } from 'react'
 import { Text } from '@mantine/core'
 import clsx from 'clsx'
 
+import { useAppContext } from '../hooks'
+
 import classes from './Development.module.css'
 
 export function BetaTopBar() {
-  const clientVersion = useMemo(() => '0.1.0', [])
+  const { state } = useAppContext()
+  const clientVersion = useMemo(() => state.version, [state])
 
   return (
     <div className={clsx('py-2 px-4', classes.developmentBar)}>
