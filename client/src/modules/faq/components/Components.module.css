@@ -1,0 +1,13 @@
+.pageTitle {
+  font-size: 3rem;
+  font-weight: var(--pn-font-weight-600);
+  color: var(--mantine-color-gray-3);
+}
+
+.pateTitleText {
+  color: var(--mantine-color-dark-2);
+}
+
+.pageTitleLink {
+  color: var(--mantine-color-orange-6);
+}
