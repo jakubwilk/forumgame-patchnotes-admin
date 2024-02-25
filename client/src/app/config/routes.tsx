@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 
 import { IndexLayout } from '../../modules/common/layout'
-import { Config, Home } from '../pages'
+import { Config, Faq, Home } from '../pages'
 
 export const ROUTER = createBrowserRouter([
   {
@@ -12,8 +12,12 @@ export const ROUTER = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: 'config',
+        path: '/config',
         element: <Config />,
+      },
+      {
+        path: '/faq',
+        element: <Faq />,
       },
     ],
   },

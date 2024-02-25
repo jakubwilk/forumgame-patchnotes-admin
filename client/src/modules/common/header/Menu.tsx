@@ -52,7 +52,7 @@ export function Menu() {
           </MantineMenu.Item>
           <MantineMenu.Item
             component={Link}
-            to={'/'}
+            to={'/faq'}
             leftSection={<IconQuestionMark style={{ width: rem(14), height: rem(14) }} />}
           >
             {'FAQ'}
