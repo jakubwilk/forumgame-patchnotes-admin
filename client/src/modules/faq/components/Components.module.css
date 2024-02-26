@@ -11,3 +11,13 @@
 .pageTitleLink {
   color: var(--mantine-color-orange-6);
 }
+
+.question {
+  font-size: 1.5rem;
+  color: var(--mantine-color-gray-4);
+  border-bottom: 1px solid var(--mantine-color-orange-5);
+}
+
+.answer {
+  color: var(--mantine-color-dark-2);
+}

@@ -7,7 +7,7 @@ import classes from './Components.module.css'
 
 export function PageTitle() {
   return (
-    <header className={'mb-8'}>
+    <header className={'my-16'}>
       <Title order={2} className={classes.pageTitle}>
         {'FAQ: Najczęściej zadawane pytania'}
       </Title>
