@@ -3,6 +3,11 @@ export interface IFaqResponse {
 }
 
 export interface IFaqResponseItem {
+  categoryId: number
+  items: Array<IFaqResponseCategoryItem>
+}
+
+export interface IFaqResponseCategoryItem {
   id: number
   question: string
   answer: string

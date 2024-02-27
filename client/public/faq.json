@@ -1,14 +1,29 @@
 {
   "faq": [
     {
-      "id": 1,
-      "question": "Ile wynoszą koszta korzystania z aplikacji CLOUD i OFF-CLOUD?",
-      "answer": "Obie wersje aplikacji są w pełni darmowe, a ilość funkcjonalności w obu przypadkach jest zawszę ta sama. Żadna dodatkowa opłata nie jest wymagana, by móc wykorzystywać pełnie możliwości obu rodzajów aplikacji."
+      "categoryId": 1,
+      "items": [
+        {
+          "id": 2,
+          "question": "Ile wynoszą koszta korzystania z aplikacji CLOUD i OFF-CLOUD?",
+          "answer": "Obie wersje aplikacji są w pełni darmowe, a ilość funkcjonalności w obu przypadkach jest zawszę ta sama. Żadna dodatkowa opłata nie jest wymagana, by móc wykorzystywać pełnie możliwości obu rodzajów aplikacji."
+        },
+        {
+          "id": 3,
+          "question": "Jaka jest różnica między aplikacją w wersji CLOUD i OFF-CLOUD?",
+          "answer": "Od strony technicznej obie wersje są identyczne, a dokładniej mówiąc są tą samą aplikacją. Jednakże wersja OFF-CLOUD jest przeznaczona dla Użytkowników, którzy chcą te narzędzie wykorzystywać na własnym zapleczu serwerowym, posiadającym odpowiednią infrastrukturę. Wersja CLOUD nie wymaga od Użytkownika posiadania własnego serwera WWW, a całość obsługiwana jest po stronie witryny patchnotes."
+        }
+      ]
     },
     {
-      "id": 2,
-      "question": "Jaka jest różnica między aplikacją w wersji CLOUD i OFF-CLOUD?",
-      "answer": "Od strony technicznej obie wersje są identyczne, a dokładniej mówiąc są tą samą aplikacją. Jednakże wersja OFF-CLOUD jest przeznaczona dla Użytkowników, którzy chcą te narzędzie wykorzystywać na własnym zapleczu serwerowym, posiadającym odpowiednią infrastrukturę. Wersja CLOUD nie wymaga od Użytkownika posiadania własnego serwera WWW, a całość obsługiwana jest po stronie witryny patchnotes."
+      "categoryId": 4,
+      "items": [
+        {
+          "id": 5,
+          "question": "Jaka jest różnica między aplikacją w wersji CLOUD i OFF-CLOUD?",
+          "answer": "Od strony technicznej obie wersje są identyczne, a dokładniej mówiąc są tą samą aplikacją. Jednakże wersja OFF-CLOUD jest przeznaczona dla Użytkowników, którzy chcą te narzędzie wykorzystywać na własnym zapleczu serwerowym, posiadającym odpowiednią infrastrukturę. Wersja CLOUD nie wymaga od Użytkownika posiadania własnego serwera WWW, a całość obsługiwana jest po stronie witryny patchnotes."
+        }
+      ]
     }
   ]
 }
