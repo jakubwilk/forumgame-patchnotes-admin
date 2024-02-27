@@ -13,8 +13,10 @@
 }
 
 .question {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   color: var(--mantine-color-gray-4);
+  font-family: var(--pn-font-rubik);
+  line-height: 1.65rem !important;
   border-bottom: 1px solid var(--mantine-color-orange-5);
 }
 
